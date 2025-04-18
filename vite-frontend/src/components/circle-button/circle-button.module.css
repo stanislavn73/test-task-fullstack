@@ -1,0 +1,6 @@
+.icon {
+  margin: 0 !important;
+  > svg {
+    font-size: 24px !important;
+  }
+}

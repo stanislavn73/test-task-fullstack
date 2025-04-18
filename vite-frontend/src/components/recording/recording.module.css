@@ -1,0 +1,50 @@
+.title {
+  font-weight: 700;
+}
+
+.description {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #4a5565;
+}
+
+.deleted {
+  display: flex;
+  height: 52px;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  gap: 8px;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 16px;
+  min-width: fit-content;
+  > span {
+    cursor: pointer;
+  }
+}
+
+.actionButton {
+  outline: none !important;
+}
+
+.disabled {
+  color: #ffa3a3 !important;
+}
+
+.recording {
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  gap: 8px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}

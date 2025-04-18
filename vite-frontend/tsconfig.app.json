@@ -23,5 +23,11 @@
     "noUncheckedSideEffectImports": true,
     "noPropertyAccessFromIndexSignature": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "plugins": [{ "name": "typescript-plugin-css-modules" }],
+  "baseUrl": "src",
+  "paths": {
+    "@/*": ["./src/*"]
+  }
+
 }
